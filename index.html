@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="a.css">
+    <script src="flip-sound.js"></script>
+</head>
+<body>
+    <div class="demo-block bg-light pt-3 pb-3 overflow-hidden" style="display: flex; height: 100vh;">
+	<div class="container mb-3 text-center" id="buttonDemoSelection" style="display: none;">
+		<div class="btn-group" role="group" aria-label="">
+			<button type="button" class="btn btn-secondary" data-dest="html">HTML</button>
+			<button type="button" class="btn btn-primary" data-dest="canvas">CANVAS</button>
+		</div>
+	</div>
+
+	<div class="container" style="max-width: 600px; width: 90%; display: flex">
+		<div id="htmlBook" style="display: none">
+			<div class="flip-book html-book stf__wrapper --landscape" id="htmlBookExample" style="min-width: 350px; min-height: 467px; width: 100%; max-width: 1400px; display: block; padding-bottom: 66.6364%;">
+
+                <div class="stf__block">
+					<div class="page stf__item">
+						<div class="page-content">
+							<div class="page-image" style="background-image: url(/page/1.png)"></div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<div id="canvasBook" style="width: 100%; margin: auto;">
+			<div class="flip-book canvas-book stf__wrapper --portrait" id="canvasBookExample" style="min-width: 350px; min-height: 467px; width: 100%; max-width: 1400px; display: block; padding-bottom: 133.273%;"><canvas class="stf__canvas" width="100" height="100"></canvas></div>
+		</div>
+	</div>
+
+	<div class="container" style="display: none!important;">
+		<div class="text-center mt-3 mb-2">
+			<button type="button" class="btn btn-info btn-sm btn-book-prev">Trang trước</button>
+			[<span class="page-count">1</span> - <span class="page-total">18</span>]
+			<button type="button" class="btn btn-info btn-sm btn-book-next">Trang sau</button>
+		</div>
+	</div>
+</div>
+</body>
+</html>
+
+<script src="a.js"></script>
