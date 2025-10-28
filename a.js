@@ -1938,24 +1938,24 @@
 				maxHeight: 1333
 			});
 			t.loadFromImages([
-				"kyyeu-phunu-conan-haiphong/page/1.png",
-				"kyyeu-phunu-conan-haiphong/page/2.png",
-				"kyyeu-phunu-conan-haiphong/page/3.png",
-				"kyyeu-phunu-conan-haiphong/page/4.png",
-				"kyyeu-phunu-conan-haiphong/page/5.png",
-				"kyyeu-phunu-conan-haiphong/page/6.png",
-				"kyyeu-phunu-conan-haiphong/page/7.png",
-                "kyyeu-phunu-conan-haiphong/page/8.png",
-                "kyyeu-phunu-conan-haiphong/page/9.png",
-                "kyyeu-phunu-conan-haiphong/page/10.png",
-                "kyyeu-phunu-conan-haiphong/page/11.png",
-                "kyyeu-phunu-conan-haiphong/page/12.png",
-                "kyyeu-phunu-conan-haiphong/page/13.png",
-                "kyyeu-phunu-conan-haiphong/page/14.png",
-                "kyyeu-phunu-conan-haiphong/page/15.png",
-                "kyyeu-phunu-conan-haiphong/page/16.png",
-                "kyyeu-phunu-conan-haiphong/page/17.png",
-                "kyyeu-phunu-conan-haiphong/page/18.png"
+				"page/1.png",
+				"page/2.png",
+				"page/3.png",
+				"page/4.png",
+				"page/5.png",
+				"page/6.png",
+				"page/7.png",
+                "page/8.png",
+                "page/9.png",
+                "page/10.png",
+                "page/11.png",
+                "page/12.png",
+                "page/13.png",
+                "page/14.png",
+                "page/15.png",
+                "page/16.png",
+                "page/17.png",
+                "page/18.png"
 			]);
 			const e = new w(document.getElementById("htmlBookExample"), {
 					width: 550,
