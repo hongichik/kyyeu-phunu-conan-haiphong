@@ -14,7 +14,7 @@ class PageFlipSound {
         try {
             // Tạo pool các audio object để có thể phát âm thanh chồng lên nhau
             for (let i = 0; i < this.poolSize; i++) {
-                const audio = new Audio('page/latsach.mp3');
+                const audio = new Audio('kyyeu-phunu-conan-haiphong/page/latsach.mp3');
                 audio.volume = this.volume;
                 audio.preload = 'auto';
                 
